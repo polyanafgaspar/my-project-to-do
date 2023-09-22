@@ -1,0 +1,75 @@
+.main{
+  background: #d32d2de1;
+  padding: 30px;
+  margin: 50px auto;
+  max-width: 90%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+.main h1{
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.form{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form input[type="text"]{
+  height: 50px;
+  padding: 0 20px;
+  font-size: large;
+  border: 3px solid #fff;
+  min-width: 80%;
+}
+
+.form button[type="submit"]{
+  border: 3px solid #fff;
+  height: 50px;
+  width: 100%;
+  background: #2d8f87;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: medium;
+}
+
+.tasks{
+  margin-top: 30px;
+}
+
+.tasks li{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  transition: all 400ms;
+}
+
+.tasks li:hover{
+  background: #4a8b86b2;
+  border-radius: 8px;
+}
+
+.tasks li .edit{
+  margin-right: 15px;
+}
+
+.tasks li .edit,
+.tasks li .delete{
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.tasks li span {
+  display: flex;
+  align-items: center;
+}
+
+
+
